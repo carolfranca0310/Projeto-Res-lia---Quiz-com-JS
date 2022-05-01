@@ -6,9 +6,18 @@ body{
 
 h1
 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
     text-align: center;
-    padding-top: 35px;
+}
+
+h2
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify; 
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 80px;
+    color: antiquewhite;
 }
 
 .body 
@@ -29,13 +38,12 @@ h1
 
 .container
 {
-    position: relative;
+    position: relative; 
     display: flex;
-    justify-content: center;
+    justify-content:first center;
     align-items: center;
     max-width: 1200px;
     flex-wrap: wrap;
-    z-index: 1;
 }
 
 .container .card
@@ -43,7 +51,7 @@ h1
     position: relative;
     width: 200px;
     height: 200px;
-    margin: 30px;
+    margin: 5px;
     box-shadow: 50px 50px 80px rgba(0, 0, 0, .5);
     padding-left: 15px;
     border-radius: 15px;
@@ -56,3 +64,11 @@ h1
     border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.container .card:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0rem 8rem 0 rgba(255, 255, 255, 0.979);
+    transition: transform 100ms;
+    transform:  scale(1.02);
+    
+}
