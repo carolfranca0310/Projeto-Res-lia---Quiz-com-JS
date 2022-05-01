@@ -1,0 +1,112 @@
+body
+{
+    background-image: url("../../Imagens/Elfo/fundo-elfo.png");
+    background-color: #5FA0A9;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#questao
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    background-color: rgba(18, 20, 20, 0.301);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+}
+
+.escolha-container
+{
+    display: flex;
+    margin-bottom: 2rem;
+    width: 5%;
+    border-radius: 2px;
+    background: rgba(142, 172, 238, 0.627);
+    font-size: 1rem;
+    min-width: 50rem;
+    border-radius: 10px;
+
+}
+
+.escolha-container:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(254, 255, 255, 0.838);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.escolha-prefixo
+{
+    padding: 2rem 2.5rem;
+    color: azure;
+}
+
+.escolha-texto
+{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct
+{
+    background: rgba(8, 250, 4, 0.905)
+}
+
+.incorrect
+{
+    background: rgb(218, 0, 0)
+}
+
+/*---------------------------------------------------------*/
+
+#hud 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefixo
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hud-menu-texto
+{
+    text-align: center;
+} 
+
+#barra-de-progresso
+{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgba(254, 255, 255, 0.838);
+    margin-top: 2rem;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#barra-de-progresso-completa
+{
+    height: 100%;
+    background: rgba(22, 143, 24, 0.838);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px){
+    .escolha-container {
+        min-width: 40rem;
+    }
+}
