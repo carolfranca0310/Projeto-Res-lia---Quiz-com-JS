@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Bean/bean-questao01.css">
 </head>
 <body>
+    <script src="../../Javascript/Bean.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,16 +33,20 @@
 
             <div id="questao">Bean tem a chance de ressuscitar uma pessoa com a lágrima <br> de um elfo verdadeiro, quem ela ressuscita?</div>
 
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Elfo')">
                 <p class="escolha-texto" data-number="1">Elfo</p>
             </div>
 
-            <div class="escolha-container">              
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Dagmar')">              
                 <p class="escolha-texto" data-number="2"> Dagmar</p>             
             </div>
            
-            <div class="escolha-container">
-                <p class="escolha-texto" data-number="3">Lucifer</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Lucifer')">
+                <p class="escolha-texto" data-number="3">Lucifer</p> 
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Lucifer')">
+                <p class="escolha-texto" data-number="3">Rei Zog</p> 
             </div>
 
         </div>

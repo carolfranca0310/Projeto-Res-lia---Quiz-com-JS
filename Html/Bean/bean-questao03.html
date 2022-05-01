@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Bean/bean-questao03.css">
 </head>
 <body>
+    <script src="../../Javascript/Bean.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,16 +33,20 @@
 
             <div id="questao">Na 3º temporada ela é mais uma vez forçada a casar, mas <br>consegue fugir, quem era o noivo?</div>
 
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Satan')">
                 <p class="escolha-texto" data-number="1">Satan</p>
             </div>
 
-            <div class="escolha-container">              
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Rei Arthur')">              
                 <p class="escolha-texto" data-number="2" > Rei Arthur</p>             
             </div>         
             
-            <div class="escolha-container">
-                <p class="escolha-texto" data-number="2"> Gideão</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Merquímio')">
+                <p class="escolha-texto" data-number="3"> Merquímio</p>
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Bruxério')">
+                <p class="escolha-texto" data-number="4"> Bruxério</p>
             </div>
 
         </div>

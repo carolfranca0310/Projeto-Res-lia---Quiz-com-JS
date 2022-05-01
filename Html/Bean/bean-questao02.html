@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Bean/bean-questao02.css">
 </head>
 <body>
+    <script src="../../Javascript/Bean.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,16 +33,20 @@
 
             <div id="questao">Bean salva uma sereia da terra das máquinas, qual o nome dela?</div>
 
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Catarina')">
                 <p class="escolha-texto" data-number="1">Catarina</p>
             </div>
 
-            <div class="escolha-container">              
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Amélia')">              
                 <p class="escolha-texto" data-number="2" > Amélia</p>             
             </div>          
             
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Mora')">
                 <p class="escolha-texto" data-number="3">Mora</p>
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Huna')">
+                <p class="escolha-texto" data-number="4">Huna</p>
             </div>
            
 
