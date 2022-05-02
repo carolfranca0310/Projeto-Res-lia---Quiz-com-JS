@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Elfo/elfo-questao02.css">
 </head>
 <body>
+    <script src="../../Javascript/Elfo.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,16 +33,20 @@
 
             <div id="questao">Para que Elfo, Luci e Bean foram para a ilha das sereias?</div>
 
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Fugir de Dagmar')">
                 <p class="escolha-texto" data-number="1">Fugir de Dagmar</p>
             </div>
 
-            <div class="escolha-container">              
-                <p class="escolha-texto" data-number="2"> Se livrar do príncipe Merquímio</p>             
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Se livrar do príncipe Merquímio')">              
+                <p class="escolha-texto" data-number="2">Se livrar do príncipe Merquímio</p>             
             </div>
            
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Procurar o pingente da Eternidade')">
                 <p class="escolha-texto" data-number="3">Procurar o pingente da Eternidade</p>
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Procurar Mora')">
+                <p class="escolha-texto" data-number="4">Procurar Mora</p>
             </div>
 
         </div>

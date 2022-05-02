@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Elfo/elfo-questao01.css">
 </head>
 <body>
+    <script src="../../Javascript/Elfo.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,16 +33,20 @@
 
             <div id="questao">Por quem o Elfo é apaixonado?</div>
 
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Dagmar')">
                 <p class="escolha-texto" data-number="1">Dagmar</p>
             </div>
 
-            <div class="escolha-container">              
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Huna')">              
                 <p class="escolha-texto" data-number="2"> Huna</p>             
             </div>
            
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Bean')">
                 <p class="escolha-texto" data-number="3">Bean</p>
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao1('Mulher Urso')">
+                <p class="escolha-texto" data-number="4">Mulher urso</p>
             </div>
 
         </div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Elfo/elfo-questao03.css">
 </head>
 <body>
+    <script src="../../Javascript/Elfo.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,16 +33,20 @@
 
             <div id="questao">Onde Bean e Luci conheceram o Elfo?</div>
 
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Inferno')">
                 <p class="escolha-texto" data-number="1">Inferno</p>
             </div>
 
-            <div class="escolha-container">              
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Vila dos Elfos')">              
                 <p class="escolha-texto" data-number="2"> Vila dos Elfos</p>             
             </div>
            
-            <div class="escolha-container">
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Igreja')">
                 <p class="escolha-texto" data-number="3">Igreja</p>
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Floresta')">
+                <p class="escolha-texto" data-number="4">Floresta</p>
             </div>
 
         </div>
