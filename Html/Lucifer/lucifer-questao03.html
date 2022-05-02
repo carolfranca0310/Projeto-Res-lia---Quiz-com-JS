@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Lucifer/luci-questao-03.css">
 </head>
 <body>
+    <script src="../../Javascript/Luci.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,19 +33,20 @@
 
             <div id="questao">Luci é dono de um estabelecimento, qual é?</div>
 
-            <div class="escolha-container">
-                <p class="escolha-prefixo">a</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Loja de magia')">
                 <p class="escolha-texto" data-number="1">Loja de magia</p>
             </div>
 
-            <div class="escolha-container">              
-                <p class="escolha-prefixo">b</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Bar')">              
                 <p class="escolha-texto" data-number="2"> Bar</p>             
             </div>
            
-            <div class="escolha-container">
-                <p class="escolha-prefixo">c</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Loja de armas')">
                 <p class="escolha-texto" data-number="3">Loja de armas</p>
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao3('Loja de armas')">
+                <p class="escolha-texto" data-number="4">Restaurante</p>
             </div>
 
         </div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/Lucifer/luci-questao-02.css">
 </head>
 <body>
+    <script src="../../Javascript/Luci.js"></script>
     <div class="container">
         <div id="game" class="justify-center flex-coluna">
             <div id="hud">
@@ -32,19 +33,20 @@
 
             <div id="questao">Quantas vezes Luci enganou Elfo e Bean?</div>
 
-            <div class="escolha-container">
-                <p class="escolha-prefixo">a</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Duas')">
                 <p class="escolha-texto" data-number="1">Duas</p>
             </div>
 
-            <div class="escolha-container">              
-                <p class="escolha-prefixo">b</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Três')">              
                 <p class="escolha-texto" data-number="2"> Três</p>             
             </div>
            
-            <div class="escolha-container">
-                <p class="escolha-prefixo">c</p>
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Nenhuma')">
                 <p class="escolha-texto" data-number="3">Nenhuma</p>
+            </div>
+
+            <div class="escolha-container" onclick="verificarRespostaQuestao2('Cinco')">
+                <p class="escolha-texto" data-number="4">Cinco</p>
             </div>
 
         </div>
