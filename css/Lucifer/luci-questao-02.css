@@ -71,40 +71,6 @@ body
 
 /*---------------------------------------------------------*/
 
-#hud 
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-.hud-prefixo
-{
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.hud-menu-texto
-{
-    text-align: center;
-} 
-
-#barra-de-progresso
-{
-    width: 20rem;
-    height: 3rem;
-    border: 0.2rem solid rgba(254, 255, 255, 0.838);
-    margin-top: 2rem;
-    border-radius: 30px;
-    overflow: hidden;
-}
-
-#barra-de-progresso-completa
-{
-    height: 100%;
-    background: rgba(22, 143, 24, 0.838);
-    width: 0%;
-}
-
 @media screen and (max-width: 768px){
     .escolha-container {
         min-width: 40rem;
